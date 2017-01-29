@@ -173,7 +173,7 @@ public class LZW extends Application {
         @Override
         public void start(Stage primaryStage) throws Exception {
             // main
-            primaryStage.setTitle("LZ77 Compressor/Decompressor Tool");
+            primaryStage.setTitle("LZW Compressor/Decompressor Tool");
             javafx.scene.control.Label home = new javafx.scene.control.Label("Choose file to compress/decompress:");
             javafx.scene.control.TextField fillWithPath = new javafx.scene.control.TextField();
             fillWithPath.setMaxWidth(200);
